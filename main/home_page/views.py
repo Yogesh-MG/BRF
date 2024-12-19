@@ -25,3 +25,6 @@ def base(request):
                 messages.error(request, 'failed')
             
     return render(request, 'home.html')
+
+def about(request):
+    return render(request, 'about_page/about.html')

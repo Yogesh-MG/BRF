@@ -1,0 +1,93 @@
+{% extends "about_page/SUB_BASE.html" %}
+{% load static %}
+
+{% block text %}About Us{% endblock text %}
+{% block subtext %}<a href="{% url "about" %}" class="h5 text-white">About</a>{% endblock subtext %}
+{% block main %}
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-7">
+                <div class="section position-relative pb-3 mb-5">
+                    <h5 class="fw-bold text-primary text-uppercase">About Us</h5>
+                    <h1 class="mb-0">Crafting Excellence in Real Estate for Over Two Decades</h1>
+                </div>
+                <p class="mb-4"><strong>Welcome</strong>
+                    <br>a trusted name in the real estate and layout development industry with over two decades of 
+                    expertise. Our journey began with a vision to redefine the real estate landscape through professionalism,
+                    innovation, and an unwavering commitment to quality. Today, we stand as a premier real estate 
+                    developer with an impressive track record of delivering exceptional projects and earning the trust 
+                    of countless satisfied clients.</p>
+                <div class="row g-0 mb-3">
+                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                        
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
+                    </div>
+                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                        <i class="fa fa-phone-alt text-white"></i>
+                    </div>
+                    <div class="ps-4">
+                        <h5 class="mb-2">Call to ask any question</h5>
+                        <h4 class="text-primary mb-0">+91 89510 23119</h4>
+                    </div>
+                </div>
+                <a href="{% url "home" %}" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" style="border-radius: 10px;font-size:2ch" data-wow-delay="0.9s">Request A Quote</a>
+            </div>
+            <div class="col-lg-5" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{% static "img/about.jpg " %}" style="object-fit: cover;">
+                </div>
+            </div>
+        </div>
+        <br>
+        <p><strong>Who We Are</strong><br>
+            At our core, we are more than just a real estate company. We are a team of passionate professionals who
+            believe in shaping dreams and transforming them into reality. With over 20 years of hands-on experience in 
+            land procurement, property development, and layout design, we have built a reputation for excellence, 
+            transparency, and reliability. Our approach combines in-depth market knowledge, cutting-edge planning, 
+            and a deep understanding of our clients' unique needs.<br>
+
+           <strong> What We Do</strong>
+            We specialize in identifying strategic locations, procuring premium land, and developing thoughtfully designed layouts that cater to a wide range of clients, from individuals to investors. Our expertise spans across some of the most sought-after locations in South India, including:
+
+            Sarjapur Road: One of Bangalore's fastest-growing hubs for residential and commercial development.
+            Devanahalli: A prime location near Bangalore International Airport, ideal for investment and future growth.
+            Malur: A developing area known for its serene environment and connectivity to key urban centers.
+            Tumkur, Koratagere, and Tiptur: Emerging destinations with immense potential for growth and development.
+            Each of our projects is meticulously planned, blending modern infrastructure with a harmonious natural environment. We are committed to creating layouts that offer not just value for money but also long-term growth and a better quality of life.
+
+            What Sets Us Apart
+            Our success is not only measured by the projects we deliver but also by the relationships we build. Here's what makes us stand out in a competitive industry:
+
+            Transparency at Every Step: We believe in clear and honest communication. Every transaction is carried out with integrity, ensuring our clients feel confident and informed throughout the process.
+            Customer-Centric Approach: Your satisfaction is our priority. We take the time to understand your aspirations and work closely with you to bring them to life. Whether you're buying a plot for investment or building your dream home, we guide you every step of the way.
+            Innovative Solutions: We leverage the latest trends, technologies, and best practices to deliver projects that are both modern and future-ready.
+            End-to-End Services: From the initial stages of land identification to the final sale and after-sales support, we offer a seamless, hassle-free experience.
+            Commitment to Quality: Every project is a testament to our dedication to excellence. From design and planning to execution, we adhere to the highest standards to ensure that our layouts are not just aesthetically pleasing but also sustainable and functional.
+            Our Vision
+            We envision a future where real estate goes beyond mere transactions to create meaningful spaces that improve lives and foster community growth. By combining innovation, ethics, and customer focus, we aim to shape this future, one project at a time.
+
+            Our Legacy
+            Over the years, we have successfully delivered numerous projects, earning accolades for our work and the loyalty of our clients. Our layouts are known for their well-planned infrastructure, accessibility, and ability to deliver exceptional value. Whether it's a residential layout on Sarjapur Road or a commercial plot in Devanahalli, every project reflects our commitment to delivering the very best.
+
+            Why Choose Us?
+            Proven Experience: 20+ years of industry expertise.
+            Prime Locations: Projects in rapidly developing areas with strong growth potential.
+            Comprehensive Offerings: Residential, commercial, and mixed-use layouts designed to meet diverse needs.
+            Trust and Excellence: A name synonymous with reliability and professionalism.
+            Join Us
+            At [Company Name], we don't just build layouts—we build trust, relationships, and communities. Whether you're a first-time buyer, a seasoned investor, or a partner seeking collaboration, we welcome you to be a part of our journey.
+
+            Explore our projects and experience the difference of working with a real estate company that puts your needs first. Together, let’s shape the future of real estate with integrity, innovation, and an unwavering focus on customer satisfaction.
+
+            Discover the possibilities with [Company Name]—your trusted partner in real estate.
+        </p>
+    </div>
+</div>
+{% endblock main %}
